@@ -1,0 +1,21 @@
+### Exercício 1
+Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas variáveis, a e b, definidas no começo com os valores que serão operados. Faça programas para:
+
+Adição - Resposta: **sum.js**.
+Subtração - Resposta: **subtraction.js**.
+Multiplicação - Resposta: **multiplication.js**.
+Divisão - Resposta: **division.js**.
+Módulo - Resposta: **mod.js**.
+### Exercício 2
+Faça um programa que retorne o maior de dois números. Defina no começo do programa duas variáveis com os valores que serão comparados.
+Resposta: **greaterThan.js**.
+### Exercício 3
+Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados. 
+Resposta: **greaterThanThree.js**.
+### Exercício 4
+Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
+Resposta: **positiveNegative.js**.
+### Exercício 5
+Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false caso contrário.
+*Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus. Caso os ângulos estejam inválidos, o programa deve retornar uma mensagem de erro.*
+Resposta: **isTriangle.js**.
