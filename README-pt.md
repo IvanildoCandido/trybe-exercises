@@ -1,3 +1,4 @@
+Selecione o Idioma: [English](https://github.com/IvanildoCandido/trybe-exercises/blob/master/README.md), **Portuguese**
 # Trybe
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Ivanildo Cândido Bezerra](https://www.linkedin.com/in/ivanildo-c%C3%A2ndido-bezerra-9a59b51a6/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
