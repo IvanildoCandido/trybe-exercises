@@ -36,5 +36,20 @@ Porcentagem >= 50 -> E
 Porcentagem < 50 -> F
 O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
 Files: **concept.js**.
-
+### Exercício 8
+Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
+Bonus: use somente um if.
+Files: **isEven.js**.
+### Exercício 9
+Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false.
+Bonus: use somente um if.
+Files: **isOdd.js**.
+### Exercício 10
+Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+* Atente que, sobre o custo do produto, incide um imposto de 20%.
+* Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+* O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+    * valorCustoTotal = valorCusto + impostoSobreOCusto
+    * lucro = valorVenda - valorCustoTotal (lucro de um produto)
+Files: **liquidProfit.js**.
 
