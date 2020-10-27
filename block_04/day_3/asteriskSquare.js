@@ -1,7 +1,7 @@
-let value = 10;
+let value = 5;
 let setLine = "";
 
-if (value < 1) {
+if (value <= 1) {
   console.log("The input value must be greater than 1!");
 } else {
   for (let line = 1; line <= value; line += 1) {
