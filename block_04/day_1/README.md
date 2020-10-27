@@ -1,80 +1,99 @@
-### Exercício 1
-Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas variáveis, a e b, definidas no começo com os valores que serão operados. Faça programas para:
+# Exercícios do Dia 1 Bloco 4
 
-Adição - Files: **sum.js**.
-Subtração - Files: **subtraction.js**.
-Multiplicação - Files: **multiplication.js**.
-Divisão - Files: **division.js**.
-Módulo - Files: **mod.js**.
-### Exercício 2
-Faça um programa que retorne o maior de dois números. Defina no começo do programa duas variáveis com os valores que serão comparados.
-Files: **greaterThan.js**.
-### Exercício 3
-Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados. 
-Files: **greaterThanThree.js**.
-### Exercício 4
-Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
-Files: **positiveNegative.js**.
-### Exercício 5
-Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false caso contrário.
-*Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus. Caso os ângulos estejam inválidos, o programa deve retornar uma mensagem de erro.*
-Files: **isTriangle.js**.
-### Exercício 6
-Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
-Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
-Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
-Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
-Exemplo: bishop -> diagonals
-Files: **chessPieces.js**.
-### Exercício 7
-Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
-Porcentagem >= 90 -> A
-Porcentagem >= 80 -> B
-Porcentagem >= 70 -> C
-Porcentagem >= 60 -> D
-Porcentagem >= 50 -> E
-Porcentagem < 50 -> F
-O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
-Files: **concept.js**.
-### Exercício 8
-Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
-Bonus: use somente um if.
-Files: **isEven.js**.
-### Exercício 9
-Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false.
-Bonus: use somente um if.
-Files: **isOdd.js**.
-### Exercício 10
-Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
-* Atente que, sobre o custo do produto, incide um imposto de 20%.
-* Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
-* O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
-    * valorCustoTotal = valorCusto + impostoSobreOCusto
-    * lucro = valorVenda - valorCustoTotal (lucro de um produto)
-Files: **liquidProfit.js**.
-### Exercício 11
-Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
-* A notação para um salário de R$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
-    * INSS
-        * Salário bruto até R$ 1.556,94: alíquota de 8%
-        * Salário bruto de R$ 1.556,95 a R$ 2.594,92: alíquota de 9%
-        * Salário bruto de R$ 2.594,93 a R$ 5.189,82: alíquota de 11%
-        * Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88
-    * IR
-        * Até R$ 1.903,98: isento de imposto de renda
-        * De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto
-        * De R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e parcela de R$ 354,80 a deduzir do imposto
-        * De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto
-        * Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.
-**Exemplo:** Uma pessoa possui o salário bruto de R$ 3.000,00. O cálculo será:
-* O salário bruto está entre R$ 2.594,93 e R$ 5.189,82, então sua alíquota para INSS é de 11%. O INSS será 11% de R$ 3.000, ou seja, R$ 330,00.
-* Para descobrir o salário-base, subtraia do salário bruto a alíquota do INSS: R$ 3.000,00 - R$ 330,00 = R$ 2.670,00.
-* Para pegar o valor do IR, temos um salário (já deduzido o INSS) entre R$ 1.903,99 e 2.826,65, sendo a alíquota, então, de 7.5%, com parcela de R$ 142,80 a deduzir do imposto. Assim, temos:
-* R$ 2.670,00: salário com INSS já deduzido;
-* 7.5%: alíquota de imposto de renda;
-* R$ 142,00 parcela a se deduzir do imposto.
-* Fazendo a conta, temos: (7,5% de R$ 2.670,00) - R$ 142,80 = R$ 57,45
-* O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 (salário-base - valor IR) = R$ 2.612,55.
+1.  Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas variáveis, a e b, definidas no começo com os valores que serão operados. Faça programas para:<br>
+    Adição Subtração Multiplicação Divisão Módulo
+    <br><span style="color:green" >**`Resposta:`**</span>
+    [sum.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/sum.js "sum.js")
+    [subtraction.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/subtraction.js "subtraction.js")
+    [multiplication.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/multiplication.js "multiplication.js")
+    [division.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/division.js "division.js")
+    [mod.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/mod.js "mod.js")
+
+2.  Faça um programa que retorne o maior de dois números. Defina no começo do programa duas variáveis com os valores que serão comparados.
+    <br><span style="color:green" >**`Resposta:`**</span>
+    [greaterThan.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/greaterThan.js "greaterThan.js")
+
+3.  Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados.
+    <br><span style="color:green" >**`Resposta:`**</span>
+    [greaterThanThree.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/greaterThanThree.js "greaterThanThree.js")
+
+4.  Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
+    <br><span style="color:green" >**`Resposta:`**</span>
+    [positiveNegative.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/positiveNegative.js "positiveNegative.js")
+
+5.  Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false caso contrário.
+
+        >*Para os ângulos serem de um triângulo válido, a soma dos três deve ser 180 graus. Caso os ângulos estejam inválidos, o programa deve retornar uma mensagem de erro.*
+
+        <br><span style="color:green" >**`Resposta:`**</span>
+
+    [isTriangle.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/isTriangle.js "isTriangle.js")
+
+6.  Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+    Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+    Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
+    Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
+    Exemplo: bishop -> diagonals
+    <br><span style="color:green" >**`Resposta:`**</span>
+    [chessPieces.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/chessPieces.js "chessPieces.js")
+
+7.  Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+    Porcentagem >= 90 -> A
+    Porcentagem >= 80 -> B
+    Porcentagem >= 70 -> C
+    Porcentagem >= 60 -> D
+    Porcentagem >= 50 -> E
+    Porcentagem < 50 -> F
+    O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
+    <br><span style="color:green" >**`Resposta:`**</span>
+    [concept.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/concept.js "concept.js")
+
+8.  Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
+    Bonus: use somente um if.
+    <br><span style="color:green" >**`Resposta:`**</span>
+    [isEven.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/isEven.js "isEven.js")
+
+9.  Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false.
+    Bonus: use somente um if.
+    <br><span style="color:green" >**`Resposta:`**</span>
+    [isOdd.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/isOdd.js "isOdd.js")
+
+10. Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+
+    > - Atente que, sobre o custo do produto, incide um imposto de 20%.
+    > - Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+    > - O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+
+    - valorCustoTotal = valorCusto + impostoSobreOCusto
+    - lucro = valorVenda - valorCustoTotal (lucro de um produto)  
+      <br><span style="color:green" >**`Resposta:`**</span>[liquidProfit.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/liquidProfit.js "liquidProfit.js")
+
+11. Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
+
+- A notação para um salário de R\$1500,10, por exemplo, deve ser 1500.10. Para as faixas de impostos, use as seguintes referências:
+  - INSS
+    - Salário bruto até R\$ 1.556,94: alíquota de 8%
+    - Salário bruto de R$ 1.556,95 a R$ 2.594,92: alíquota de 9%
+    - Salário bruto de R$ 2.594,93 a R$ 5.189,82: alíquota de 11%
+    - Salário bruto acima de R$ 5.189,82: alíquota máxima de R$ 570,88
+  - IR
+    - Até R\$ 1.903,98: isento de imposto de renda
+    - De R$ 1.903,99 a 2.826,65: alíquota de 7,5% e parcela de R$ 142,80 a deduzir do imposto
+    - De R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e parcela de R\$ 354,80 a deduzir do imposto
+    - De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R\$ 636,13 a deduzir do imposto
+    - Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto.
+
+> **Exemplo:** Uma pessoa possui o salário bruto de R\$ 3.000,00. O cálculo será:
+>
+> - O salário bruto está entre R$ 2.594,93 e R$ 5.189,82, então sua alíquota para INSS é de 11%. O INSS será 11% de R$ 3.000, ou seja, R$ 330,00.
+> - Para descobrir o salário-base, subtraia do salário bruto a alíquota do INSS: R$ 3.000,00 - R$ 330,00 = R\$ 2.670,00.
+> - Para pegar o valor do IR, temos um salário (já deduzido o INSS) entre R$ 1.903,99 e 2.826,65, sendo a alíquota, então, de 7.5%, com parcela de R$ 142,80 a deduzir do imposto. Assim, temos:
+> - R\$ 2.670,00: salário com INSS já deduzido;
+> - 7.5%: alíquota de imposto de renda;
+> - R\$ 142,00 parcela a se deduzir do imposto.
+> - Fazendo a conta, temos: (7,5% de R$ 2.670,00) - R$ 142,80 = R\$ 57,45
+> - O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 (salário-base - valor IR) = R$ 2.612,55.
 Resultado: R$ 2.612,55.
-**Dica:** que tal identificar as alíquotas com variáveis de nomes explicativos?
-Files: **calcSalary.js**.
+>   **Dica:** que tal identificar as alíquotas com variáveis de nomes explicativos?
+>   <br><span style="color:green" >**`Resposta:`**</span>
+>   [calcSalary.js](https://github.com/IvanildoCandido/trybe-exercises/blob/master/block_04/day_1/calcSalary.js "calcSalary.js")
