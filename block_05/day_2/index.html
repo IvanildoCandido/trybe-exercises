@@ -58,36 +58,45 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
+
+      //Step 1
       let h1 = document.createElement('h1');
       h1.innerText = 'Exercício 5.2 - JavaScript DOM';
-      document.body.appendChild(h1); 
-
-      let divMainContent = document.createElement('div');    
+      document.body.appendChild(h1);
+      //Step 2
+      let divMainContent = document.createElement('div');
       divMainContent.classList.add('main-content');
       document.body.appendChild(divMainContent);
-
+      //Step 3
       let divCenterContent = document.createElement('div');
       divCenterContent.classList.add('center-content');
       document.querySelector('.main-content').appendChild(divCenterContent);
-
+      //Step 4
       let p = document.createElement('p');
       document.querySelector('.center-content').appendChild(p);
       p.innerText = 'JavaScript é Maravilhoso!';
-
+      //Step 5
       let divLeftContent = document.createElement('div');
       divLeftContent.classList.add('left-content');
       document.querySelector('.main-content').appendChild(divLeftContent);
-
+      //Step 6
       let divRightContent = document.createElement('div');
       divRightContent.classList.add('right-content');
       document.querySelector('.main-content').appendChild(divRightContent);
-
+      //Step 7
       let image = document.createElement('img');
       image.src = 'https://picsum.photos/200';
       image.classList.add('small-image');
       document.querySelector('.left-content').appendChild(image);
-
-
+      //Step 8
+      let ul = document.createElement('ul');
+      for (i = 1; i <= 10; i += 1) {
+          let li = document.createElement('li');
+          li.innerText = i.toString(); 
+          ul.appendChild(li);         
+      }
+      document.querySelector('.right-content').appendChild(ul);
+      
     </script>
   </body>
 </html>
