@@ -91,12 +91,16 @@
       //Step 8
       let ul = document.createElement('ul');
       for (i = 1; i <= 10; i += 1) {
-          let li = document.createElement('li');
-          li.innerText = i.toString(); 
-          ul.appendChild(li);         
+        let li = document.createElement('li');
+        li.innerText = i.toString();
+        ul.appendChild(li);
       }
       document.querySelector('.right-content').appendChild(ul);
-      
+      //Step 9      
+      for (i = 1; i <= 3; i += 1) {
+        let auxH3 = document.createElement('h3');
+        document.querySelector('.main-content').appendChild(auxH3);
+      }
     </script>
   </body>
 </html>
