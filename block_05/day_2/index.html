@@ -96,7 +96,7 @@
         ul.appendChild(li);
       }
       document.querySelector('.right-content').appendChild(ul);
-      //Step 9      
+      //Step 9
       for (i = 1; i <= 3; i += 1) {
         let auxH3 = document.createElement('h3');
         document.querySelector('.main-content').appendChild(auxH3);
@@ -108,10 +108,11 @@
       h1.classList.add('title');
       //Step 2
       let titles = document.querySelectorAll('h3');
-      for (let  i in titles){
+      for (i = 1; i < 3; i += 1) {
         titles[i].classList.add('description');
       }
-      
+      //Step 3
+      divMainContent.removeChild(divLeftContent);
     </script>
   </body>
 </html>
