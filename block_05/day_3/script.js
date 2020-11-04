@@ -57,22 +57,31 @@ const dezDaysList = [
   30,
   31,
 ];
-const ulDays = document.querySelector('#days');
+//This function generates the days of the month based on a matrix
+function generateDays(array) {
+  const ulDays = document.querySelector('#days');
 
-for (i = 0; i < dezDaysList.length; i += 1) {
-  const liDay = document.createElement('li');
-  liDay.classList.add('day');
-  if (dezDaysList[i] === 24 || dezDaysList[i] === 25 || dezDaysList[i] === 31) {
-    liDay.classList.add('holiday');
+  for (i = 0; i < dezDaysList.length; i += 1) {
+    const liDay = document.createElement('li');
+    liDay.classList.add('day');
+    if (
+      dezDaysList[i] === 24 ||
+      dezDaysList[i] === 25 ||
+      dezDaysList[i] === 31
+    ) {
+      liDay.classList.add('holiday');
+    }
+    if (
+      dezDaysList[i] === 4 ||
+      dezDaysList[i] === 11 ||
+      dezDaysList[i] === 18 ||
+      dezDaysList[i] === 25
+    ) {
+      liDay.classList.add('friday');
+    }
+    liDay.innerText = dezDaysList[i];
+    ulDays.appendChild(liDay);
   }
-  if (
-    dezDaysList[i] === 4 ||
-    dezDaysList[i] === 11 ||
-    dezDaysList[i] === 18 ||
-    dezDaysList[i] === 25
-  ) {
-    liDay.classList.add('friday');
-  }
-  liDay.innerText = dezDaysList[i];
-  ulDays.appendChild(liDay);
 }
+
+generateDays(dezDaysList);
