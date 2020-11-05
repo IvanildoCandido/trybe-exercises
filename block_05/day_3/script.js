@@ -115,5 +115,14 @@ function setHolidays() {
     }
   });
 }
-
 setHolidays();
+
+//Step 4
+function friday(friday) {
+  let btnFriday = document.createElement('button');
+  btnFriday.innerText = friday;
+  btnFriday.id = 'btn-friday';
+  document.querySelector('.buttons-container').appendChild(btnFriday);
+}
+
+friday('Sexta-feira');
