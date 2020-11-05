@@ -98,3 +98,22 @@ function holidays(nameOfButton) {
   divButtonsContainer.appendChild(btnHolidays);
 }
 holidays('Feriados');
+
+// Step 3
+function setHolidays() {
+  const btnHolidays = document.querySelector('#btn-holiday');
+  const holiday = document.querySelectorAll('.holiday');
+  let defaultColor = 'rgb(238,238,238)';
+  let highLightColor = 'white';
+  btnHolidays.addEventListener('click', function () {
+    for (i = 0; i < holiday.length; i += 1) {
+      if (holiday[i].style.backgroundColor === highLightColor) {
+        holiday[i].style.backgroundColor = defaultColor;
+      } else {
+        holiday[i].style.backgroundColor = highLightColor;
+      }
+    }
+  });
+}
+
+setHolidays();
