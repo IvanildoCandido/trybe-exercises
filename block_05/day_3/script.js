@@ -126,3 +126,23 @@ function friday(friday) {
 }
 
 friday('Sexta-feira');
+
+//Step 5
+function setFriday(fridaysArray) {
+  const btnFriday = document.querySelector('#btn-friday');
+  const friday = document.getElementsByClassName('friday');
+  let newText = 'FRIDAY!';
+
+  btnFriday.addEventListener('click', function () {
+    for (i = 0; i < friday.length; i += 1) {
+      if (friday[i].innerHTML !== newText) {
+        friday[i].innerHTML = newText;
+      } else {
+        friday[i].innerHTML = fridaysArray[i];
+      }
+    }
+  });
+}
+let dezFridays = [4, 11, 18, 25];
+setFriday(dezFridays);
+
