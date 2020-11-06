@@ -146,3 +146,20 @@ function setFriday(fridaysArray) {
 let dezFridays = [4, 11, 18, 25];
 setFriday(dezFridays);
 
+//Step 6
+function mouseOver() {
+  const days = document.querySelector('#days');
+  days.addEventListener('mouseover', function (event) {
+    event.target.style.fontSize = "28px";
+    event.target.style.fontWeight = "bold"; 
+  })
+}
+function mouseOut() {
+  const days = document.querySelector('#days');
+  days.addEventListener('mouseout', function (event) {
+    event.target.style.fontSize = "20px";
+    event.target.style.fontWeight = "normal"; 
+  })
+}
+mouseOver();
+mouseOut();
