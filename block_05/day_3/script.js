@@ -150,16 +150,26 @@ setFriday(dezFridays);
 function mouseOver() {
   const days = document.querySelector('#days');
   days.addEventListener('mouseover', function (event) {
-    event.target.style.fontSize = "28px";
-    event.target.style.fontWeight = "bold"; 
-  })
+    event.target.style.fontSize = '28px';
+    event.target.style.fontWeight = 'bold';
+  });
 }
 function mouseOut() {
   const days = document.querySelector('#days');
   days.addEventListener('mouseout', function (event) {
-    event.target.style.fontSize = "20px";
-    event.target.style.fontWeight = "normal"; 
-  })
+    event.target.style.fontSize = '20px';
+    event.target.style.fontWeight = 'normal';
+  });
 }
 mouseOver();
 mouseOut();
+
+//Step 7
+
+function addTaskSpan(taskName) {
+  const taskContainer = document.querySelector('.my-tasks');
+  const newTask = document.createElement('span');
+  newTask.innerText = taskName;
+  taskContainer.appendChild(newTask);
+}
+addTaskSpan('Resolver os exercícios de 1 ao 7');
