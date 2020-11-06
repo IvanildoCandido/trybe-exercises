@@ -165,11 +165,19 @@ mouseOver();
 mouseOut();
 
 //Step 7
-
+const taskContainer = document.querySelector('.my-tasks');
 function addTaskSpan(taskName) {
-  const taskContainer = document.querySelector('.my-tasks');
   const newTask = document.createElement('span');
   newTask.innerText = taskName;
   taskContainer.appendChild(newTask);
 }
 addTaskSpan('Resolver os exercícios de 1 ao 7');
+
+//Step 8
+function addTaskSubtitle(color) {
+  const divSubtitle = document.createElement('div');
+  divSubtitle.className = 'task';
+  divSubtitle.style.backgroundColor = color;
+  taskContainer.appendChild(divSubtitle);
+}
+addTaskSubtitle("red")
