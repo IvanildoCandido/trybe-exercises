@@ -180,4 +180,24 @@ function addTaskSubtitle(color) {
   divSubtitle.style.backgroundColor = color;
   taskContainer.appendChild(divSubtitle);
 }
-addTaskSubtitle("red")
+addTaskSubtitle('red');
+
+//Step 9
+function toggleTask() {
+  const task = document.querySelector('.task');
+  
+  task.addEventListener('click', function (event) {
+    const taskSelected = document.querySelector('.selected');
+    if (taskSelected === null) {
+      event.target.className = 'task selected';
+    } else {
+      event.target.className = 'task';
+    }
+  });
+}
+toggleTask();
+//Step 10
+function toogleDayColor(){
+  const days = document.querySelector('#days');
+  
+}
