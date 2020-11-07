@@ -211,3 +211,23 @@ function toogleDayColor() {
   });
 }
 toogleDayColor();
+//Step bonus
+function addAppointment() {
+  document.addEventListener('keydown', function (event) {
+    if (event.keyCode !== 13) return;
+    btnAdd.click();
+  });
+  const btnAdd = document.querySelector('#btn-add');
+  const txtAppointment = document.querySelector('#task-input');
+  const ulAppointments = document.querySelector('.task-list');
+  btnAdd.addEventListener('click', function () {
+    if (txtAppointment.value === '') {
+      alert('Não é possivel adicionar um compromisso em branco!');
+    } else {
+      let li = document.createElement('li');
+      li.innerText = txtAppointment.value;
+      ulAppointments.appendChild(li);
+    }
+  });
+}
+addAppointment();
