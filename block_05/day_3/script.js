@@ -185,7 +185,7 @@ addTaskSubtitle('red');
 //Step 9
 function toggleTask() {
   const task = document.querySelector('.task');
-  
+
   task.addEventListener('click', function (event) {
     const taskSelected = document.querySelector('.selected');
     if (taskSelected === null) {
@@ -197,7 +197,17 @@ function toggleTask() {
 }
 toggleTask();
 //Step 10
-function toogleDayColor(){
+function toogleDayColor() {
   const days = document.querySelector('#days');
-  
+  days.addEventListener('click', function (event) {
+    const taskSelected = document.querySelector('.selected');
+    if (taskSelected !== null) {
+      if (event.target.style.color === taskSelected.style.backgroundColor) {
+        event.target.style.color = 'rgb(119,119,119)';
+      } else {
+        event.target.style.color = taskSelected.style.backgroundColor;
+      }
+    }
+  });
 }
+toogleDayColor();
