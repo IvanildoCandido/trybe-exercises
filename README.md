@@ -26,7 +26,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [X] 4-2: *[JavaScript - For Array and Loop](https://github.com/IvanildoCandido/trybe-exercises/tree/master/block_04/day_2)*
 - [X] 4-3: *[JavaScript - Programming Logic and Algorithms](https://github.com/IvanildoCandido/trybe-exercises/tree/master/block_04/day_3)*
 - [X] 4-4: *[JavaScript - Objects and functions](https://github.com/IvanildoCandido/trybe-exercises/tree/master/block_04/day_4)*
-- [X] 4-5: *[Project - Playground Functions]()*
+- [X] 4-5: *[Project - Playground Functions](https://github.com/IvanildoCandido/trybe-projects/tree/main/html-css-js/playground-functions)*
 
 ##### Block 5: Introduction - JavaScript - Projects
 - [x] 5-1: *[JavaScript - DOM and selectors](https://github.com/IvanildoCandido/trybe-exercises/tree/master/block_05/day_1)*
