@@ -81,6 +81,14 @@
         p[1].innerText = p[1].innerText.toUpperCase();
       }
       upperCase();
+      //Step 6
+      function consoleText() {
+        let p = document.getElementsByTagName('p');
+        for (i = 0; i < p.length; i += 1) {
+          console.log(p[i].innerText);
+        }
+      }
+      consoleText();
     </script>
   </body>
 </html>
