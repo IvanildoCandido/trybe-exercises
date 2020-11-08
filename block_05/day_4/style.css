@@ -1,0 +1,22 @@
+.background li {
+  list-style: none;
+  position: relative;
+}
+header {
+  position: relative;
+  width: auto;
+  height: 100px;
+}
+main {
+  border: 1px solid red;
+  height: 90vh;
+  width: 70%;
+  top: 10px;
+  right: 100px;
+  position: absolute;
+  overflow: scroll;
+}
+p,
+h1 {
+  text-align: center;
+}
