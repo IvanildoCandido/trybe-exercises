@@ -20,17 +20,19 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 3-2: *HTML & CSS - Getting Started with CSS*
 - [ ] 3-3: *HTML & CSS - Selectors and positioning*
 - [ ] 3-4: *Semantic HTML*
-- [ ] 3-5: *[Project - HTML & CSS]()*
+- [x] 3-5: *[Project - HTML & CSS](https://github.com/IvanildoCandido/trybe-projects/tree/main/html-css-js/lessons-learned)*
 ##### Block 4: Introduction - JavaScript
-- [ ] 4-1: *JavaScript - Getting Started*
-- [ ] 4-2: *JavaScript - For Array and Loop*
-- [ ] 4-3: *JavaScript - Programming Logic and Algorithms*
-- [ ] 4-4: *JavaScript - Objects and functions*
-- [ ] 4-5: *JavaScript - DOM and selectors*
-- [ ] 4-6: *JavaScript - Working with elements*
-- [ ] 4-7: *JavaScript - Events*
-- [ ] 4-8: *JavaScript - Web Storage*
+- [X] 4-1: *JavaScript - Getting Started*
+- [X] 4-2: *JavaScript - For Array and Loop*
+- [X] 4-3: *JavaScript - Programming Logic and Algorithms*
+- [X] 4-4: *JavaScript - Objects and functions*
+- [X] 4-5: *[Project - Playground Functions]()*
+
 ##### Block 5: Introduction - JavaScript - Projects
+- [x] 5-1: *JavaScript - DOM and selectors*
+- [x] 5-2: *JavaScript - Working with elements*
+- [x] 5-3: *JavaScript - Events*
+- [x] 5-4: *JavaScript - Web Storage*
 - [ ] 5-1: *[Project - Meme Generator]()*
 - [ ] 5-2: *[Project - Art with Pixels]()*
 - [ ] 5-3: *[Project - To Do List]()*
