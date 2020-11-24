@@ -33,3 +33,13 @@ console.table(listValues(lesson2));
 //Exercise 5
 const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
 console.log(allLessons);
+//Exercise 6
+const totalStudents = (object) => {
+  const values = Object.entries(object);
+  let count = 0;
+  for (const key in values) {
+    count += values[key][1].numeroEstudantes;
+  }
+  return count;
+};
+console.log(totalStudents(allLessons));
