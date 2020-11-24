@@ -47,7 +47,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 6-4: *CSS Flexbox - Part 2*
 - [ ] 6-5: *[Project - Facebook home]()*
 ##### Block 7: JavaScript ES6 & Unit Tests
-- [ ] 7-1: *JavaScript ES6 - let, const, arrow functions and template literals*
+- [x] 7-1: *JavaScript ES6 - let, const, arrow functions and template literals*
 - [ ] 7-2: *JavaScript ES6 - Objects*
 - [ ] 7-3: *JavaScript unit tests*
 - [ ] 7-4: *Testing in small steps*
