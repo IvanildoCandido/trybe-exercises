@@ -44,4 +44,4 @@ assert.deepStrictEqual(result, expected);
 
 assert.throws(() => {
   getChange(100, 10);
-}, 'Error: paid value is not enough');
+}, /^Error: paid value is not enough$/);
