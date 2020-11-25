@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Currículo</title>
+</head>
+<body>
+    <fieldset>
+        <label for="name">Nome:</label>
+        <input type="text" name="" id="name" maxlength="40" required>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email" maxlength="50" required>
+        <label for="cpf">CPF:</label>
+        <input type="text" name="" id="cpf" maxlength="11" required>
+        <label for="address">Endereço:</label>
+        <input type="text" name="" id="address" maxlength="200" required>
+        <label for="city">Cidade:</label>
+        <input type="text" name="" id="city" maxlength="28" required>
+        <label for="states">Estados:</label>
+        <select name="" id="states" required></select>
+        <label for="states">Complemento:</label>
+        <input type="radio" name="complement" id="complement">
+        <label for="states">Casa</label>
+        <input type="radio" name="complement" id="complement">
+        <label for="states">Apartamento:</label>
+    </fieldset>
+    <fieldset>
+        <label for="resume">Resumo do Curriculo</label>
+        <textarea name="" id="resume" cols="10" rows="10" maxlength="1000" required></textarea>
+        <label for="job">Cargo:</label>
+        <input type="text" name="" id="job" maxlength="40" required>
+        <label for="jobDescription">Cargo:</label>
+        <input type="text" name="" id="jobDescription" maxlength="500" required>
+        <label for="beginDate">Cargo:</label>
+        <input type="text" name="" id="beginDate" maxlength="10" required>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+    </fieldset>
+    <div class="result"></div>
+</body>
+</html>

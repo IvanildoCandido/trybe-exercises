@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador de Cliques</title>
+  </head>
+  <body>
+    <label for="count">Número de Cliques:</label>
+    <input type="number" name="" id="count" value="0" />
+    <button id="btn-click">Clicar</button>
+    <script>
+      const btnClick = document.getElementById('btn-click');
+      const result = document.getElementById('count');
+      let clickCount = 0;
+      btnClick.addEventListener('click', () => (result.value = clickCount += 1));
+    </script>
+  </body>
+</html>
