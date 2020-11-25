@@ -19,7 +19,7 @@ const lesson3 = {
 };
 //Exercise 1
 const addShift = (object, key, value) => (object[key] = value);
-addShift(lesson2, 'shift', 'Manhã');
+addShift(lesson2, 'turno', 'Manhã');
 console.log(lesson2);
 //Exercise 2
 const listKeys = (object) => Object.keys(object);
@@ -44,3 +44,8 @@ const totalStudents = (object) => {
 };
 console.log(totalStudents(allLessons));
 //Exercise 7
+const getValueByNumber = (object, number) => Object.values(object)[number];
+console.log(getValueByNumber(lesson1, 0));
+//Exercise 8
+const verifyPair = (object, key, value) => object[key] === value;
+console.log(verifyPair(lesson3, 'turno', 'noite'));
