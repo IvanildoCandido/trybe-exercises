@@ -17,6 +17,7 @@ const lesson3 = {
   professor: 'Maria Clara',
   turno: 'noite',
 };
+//Exercise Bonus 1
 const allLessons = Object.assign({}, { lesson1, lesson2, lesson3 });
 const verifyPair = (object, key, value) => object[key] === value;
 
@@ -31,3 +32,21 @@ const hasMathClass = (object) => {
   return count;
 };
 console.log(hasMathClass(allLessons));
+//Exercise Bonus 1
+const createReport = (object, teacher) => {
+  const keys = Object.keys(object);
+  const classList = [];
+  const result = {};
+  let count = 0;
+  for (const key in object) {
+    if (object[key]['professor'] === teacher) {
+      classList.push(object[key]['materia']);
+      count += object[key]['numeroEstudantes'];
+    }
+  }
+  result.professor = teacher;
+  result.aulas = classList;
+  result.estudantes = count;
+  return result;
+};
+console.log(createReport(allLessons, 'Maria Clara'));
