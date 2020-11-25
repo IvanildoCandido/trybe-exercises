@@ -43,3 +43,4 @@ const totalStudents = (object) => {
   return count;
 };
 console.log(totalStudents(allLessons));
+//Exercise 7
