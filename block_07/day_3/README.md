@@ -1,4 +1,4 @@
-# Exercícios do Dia 2 Bloco 7
+# Exercícios do Dia 3 Bloco 7
 ## Assunto : Testes unitários em JavaScript
 
 ### Praticando a implementação de testes
