@@ -53,7 +53,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 7-4: *Testing in small steps*
 - [ ] 7-5: *[Project - JavaScript Unit Tests]()*
 ##### Block 8: JavaScript ES6
-- [ ] 8-1: *JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort*
+- [x] 8-1: *JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort*
 - [ ] 8-2: *JavaScript ES6 - Higher Order Functions - map and reduce*
 - [ ] 8-3: *JavaScript ES6 - spread operator, rest parameter, destructuring and more*
 - [ ] 8-4: *[Project - Zoo functions]()*
