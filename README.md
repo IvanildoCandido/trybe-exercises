@@ -10,8 +10,8 @@ The program has more than **1,500 hours** of classroom and online classes and co
 
 ## Introduction - Web Development :white_check_mark:
 ##### Block 1: Introduction - Unix & Shell
+- [x] 1-3: *Unix & Bash - Part 1*
 - [ ] 1-4: *Unix & Bash - Part 2*
-- [ ] 1-3: *Unix & Bash - Part 1*
 ##### Block 2: Git & GitHub 
 - [ ] 2-1: *What is it and what is it for?*
 - [ ] 2-2: *Understanding the commands*
