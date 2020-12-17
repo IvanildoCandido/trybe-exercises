@@ -1,5 +1,6 @@
-Select Language: **English**, [Portuguese](https://github.com/IvanildoCandido/trybe-exercises/blob/master/README-pt.md)
-# Trybe
+# Select Language: **English**, [Portuguese](https://github.com/IvanildoCandido/trybe-exercises/blob/master/README-pt.md)
+
+## Trybe
 
 This repository contains all learning activities developed by *[Ivanildo Candido Bezerra](https://www.linkedin.com/in/ivanildocandido/)* while studying at [Trybe](https://www.betrybe.com/) :rocket:
 
