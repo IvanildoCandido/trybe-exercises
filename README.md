@@ -64,7 +64,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 9-3: *JavaScript Promises*
 - [ ] 9-4: *[Project - Shopping Cart]()*
 ##### Block 10: Jest
-- [ ] 10-1: *Jest - Asynchronous Tests*
+- [x] 10-1: *[Jest - First steps at Jest](https://github.com/IvanildoCandido/trybe-exercises/tree/master/block_10/day_1)*
 - [ ] 10-2: *Jest - Simulating behaviors*
 - [ ] 10-3: *[Project - Asynchronous Jest and Mocking]()*
 ##### Block 11: Introduction - React
