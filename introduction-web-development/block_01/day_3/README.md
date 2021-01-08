@@ -1,30 +1,56 @@
-## DESCRIÇÃO DOS EXERCÍCIOS
- 
-### Exerício 1
-Foi solicitado que utilizando o comando de criação de diretorios fosse criado um diretório chamado *unix_tests* e após isso navegar até o mesmo. Utilizei os seguintes comandos: **"mkdir unix_tests"** e **"cd unix_tests"**.
-### Exerício 2
-Foi solicitado a criação de um arquivo de texto chamado *trybe.txt*. Utilzei o comando **"touch trybe.txt"**
-### Exerício 3
-Foi solicitado a criação de uma copia do arquivo do exercício anterior com o nome de *trybe_backup.txt*. Utilizei o comando **"cp trybe.txt trybe_backup.txt"**.
-### Exerício 4
-Foi solicitado que o arquivo *trybe.txt* fosse renomeado. Utilizei o comando **"mv trybe.txt new-trybe.txt"**.
-### Exerício 5
-Foi solicitado a criação de um novo diretório chamado *backup* dentro do diretório *unix_tests*. Utilizei o comando **"mkdir backup"**.
-### Exerício 6
-Foi solicitado que o arquivo *trybe_backup.txt* fosse movido para o diretório *backup*. Utilizei o comando **"mv trybe_backup.txt backup"**.
-### Exerício 7
-Foi solicitado que dentro de *unix_tests* fosse criado um diretório chamado *backup2*. Utilizei o comando **"mkdir backup2"**.
-### Exerício 8
-Foi solicitado que fosse movido o arquivo *trybe_backup.txt* da pasta *backup* para a pasta *backup2*. Utilizei o comando **"mv ./backup/trybe_backup.txt ./backup2"**.
-### Exerício 9
-Foi solicitado que a pasta backup fosse apagada. Utilizei o comando **"rmdir backup"**.
-### Exerício 10
-Foi solicitado que a pasta *backup2* fosse renomeada para *backup*. Utilizei o comando **"mv backup2 backup"**.
-### Exerício 11
-Foi solicitado a listagem do path completo do diretório *unix_tests* e a listagem dos arquivos dentro dele. Utilizei o comando **"pwd"** e logo em seguida o comando **"ls -a"**
-### Exerício 12
-Foi solicitado que o diretório backup fosse apagado. Utizei o camando **"rm -rf backup"** porque havia arquivos dentro do diretório e nesses casos o comando para remover diretórios não funciona.
-### Exerício 13
-Foi solicitado que o terminal fosse limpo. Para isso utilizei apenas as tecla de atalho **"CRTL + L"** porém o comando **"clear"** também resolveria.
+# Exercícios do Dia 3 Bloco 1
+## Assunto : Unix, Bash e Shell Script
 
+### Parte I - Criação de arquivos e diretórios
+Dica : Para criação de arquivos vazios você pode utilizar o comando touch nome-do-arquivo.extensao .
 
+1. Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: 2. crie um diretório chamado unix_tests e navegue até ele.
+3. Crie um arquivo de texto com o nome trybe.txt .
+4. Crie uma cópia do arquivo trybe.txt com nome trybe_backup.txt .
+5. Renomeie o arquivo trybe.txt .
+6. Dentro de unix_tests , crie um novo diretório chamado backup .
+7. Mova o arquivo trybe_backup.txt para o diretório backup .
+8. Dentro de unix_tests , crie um novo diretório chamado backup2 .
+9. Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2 .
+10. Apague a pasta backup .
+11. Renomeie a pasta backup2 para backup .
+12. Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
+13. Apague o diretório backup .
+14. Limpe o terminal.
+
+Para os exercícios, 14 e 15, crie, de forma manual na parte gráfica do seu sistema operacional, um arquivo de texto com o conteúdo abaixo, chamado skills.txt :
+``` Bash
+Internet
+Unix
+Bash
+HTML
+CSS
+JavaScript
+React
+SQL
+```
+14. Mostre na tela as 5 primeiras skills do arquivo skills.txt .
+15. Mostre na tela as 4 últimas skills do arquivo skills.txt .
+16. Apague todos os arquivos que terminem em .txt .
+
+### Parte II - Manipulação & Busca
+1. Na pasta unix_tests , baixe um arquivo com os nomes de todos os países do mundo utilizando o comando curl:
+``` Bash
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+```
+2. Mostre todo o conteúdo do arquivo countries.txt na tela.
+3. Mostre o conteúdo de countries.txt , página por página, até encontra a Zambia .
+4. Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia .
+5. Busque por Brazil no countries.txt .
+6. Busque novamente por brazil , mas agora utilizando o lower case .
+
+Para os próximos exercícios, crie um novo arquivo chamado phrases.txt e adicione algumas frases a sua escolha. Não precisa criar o arquivo pelo terminal.
+
+7. Busque pelas frases que não contenham a palavra fox .
+8. Conte o número de palavras do arquivo phrases.txt .
+9. Conte o número de linhas do arquivo phrases.txt .
+10. Crie os arquivos empty.tbt e empty.pdf .
+11. Liste todos os arquivos do diretório unix_tests .
+12. Liste todos os arquivos que terminem com txt .
+13. Liste todos os arquivos que terminem com tbt ou txt .
+14. Acesse o manual do comando ls .
