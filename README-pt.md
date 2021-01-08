@@ -85,7 +85,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 ##### Bloco 10: Jest
 
 - [x] 10-1: _[Jest - Primeiros passos com Jest](https://github.com/IvanildoCandido/trybe-exercises/tree/master/block_10/day_1)_
-- [ ] 10-2: _Jest - Simulando comportamentos_
+- [x] 10-2: _[Jest - Testes Assincronos](https://github.com/IvanildoCandido/trybe-exercises/tree/master/block_10/day_2)_
+- [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-3: _[Projeto - Jest Assíncrono e Mocking]()_
 
 ##### Bloco 11: Introdução - React
