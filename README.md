@@ -64,9 +64,10 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 9-3: *JavaScript Promises*
 - [ ] 9-4: *[Project - Shopping Cart]()*
 ##### Block 10: Jest
-- [x] 10-1: *[Jest - First steps at Jest](https://github.com/IvanildoCandido/trybe-exercises/tree/master/block_10/day_1)*
-- [x] 10-2: *[Jest - Asynchronous Tests](https://github.com/IvanildoCandido/trybe-exercises/tree/master/block_10/day_2)*
-- [ ] 10-3: *[Project - Asynchronous Jest and Mocking]()*
+- [x] 10-1: *[Jest - First steps at Jest](https://github.com/IvanildoCandido/trybe-exercises/tree/master/introduction-web-development/block_10/day_1)*
+- [x] 10-2: *[Jest - Asynchronous Tests](https://github.com/IvanildoCandido/trybe-exercises/tree/master/introduction-web-development/block_10/day_2)*
+- [x] 10-3: *[Jest - Simulating behaviors](https://github.com/IvanildoCandido/trybe-exercises/tree/master/introduction-web-development/block_10/day_3)*
+- [ ] 10-3: *Project - Asynchronous Jest and Mocking*
 ##### Block 11: Introduction - React
 - [ ] 11-1: *'Hello, world!' in React!*
 - [ ] 11-2: *React Components*
