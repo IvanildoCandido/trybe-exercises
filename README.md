@@ -69,7 +69,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [x] 10-3: *[Jest - Simulating behaviors](https://github.com/IvanildoCandido/trybe-exercises/tree/master/introduction-web-development/block_10/day_3)*
 - [ ] 10-3: *Project - Asynchronous Jest and Mocking*
 ##### Block 11: Introduction - React
-- [ ] 11-1: *'Hello, world!' in React!*
+- [x] 11-1: *['Hello, world!' in React!](https://github.com/IvanildoCandido/trybe-exercises/tree/master/front-end-delopment/block_11/day_1)*
 - [ ] 11-2: *React Components*
 - [ ] 11-3: *[Project - Movie Cards Library]()*
 ##### Block 12: React
