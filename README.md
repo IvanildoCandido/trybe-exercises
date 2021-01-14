@@ -70,7 +70,7 @@ The program has more than **1,500 hours** of classroom and online classes and co
 - [ ] 10-3: *Project - Asynchronous Jest and Mocking*
 ##### Block 11: Introduction - React
 - [x] 11-1: *['Hello, world!' in React!](https://github.com/IvanildoCandido/trybe-exercises/tree/master/front-end-delopment/block_11/day_1)*
-- [ ] 11-2: *React Components*
+- [x] 11-2: *[React Components](https://github.com/IvanildoCandido/trybe-exercises/tree/master/front-end-delopment/block_11/day_2)*
 - [ ] 11-3: *[Project - Movie Cards Library]()*
 ##### Block 12: React
 - [ ] 12-1: *Components with status*
